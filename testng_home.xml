@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+	
+	<test name="Test navigation bar  on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="swiss.atfinity.testcases.HomePageTest">
+				<methods>
+					<include name="testNavigationBar" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test home page cover title  on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="swiss.atfinity.testcases.HomePageTest">
+				<methods>
+					<include name="testHomePageCoverTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test home page cover video  on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="swiss.atfinity.testcases.HomePageTest">
+				<methods>
+					<include name="testHomePageVideo" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test home page End-to-end client journeys  on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="swiss.atfinity.testcases.HomePageTest">
+				<methods>
+					<include name="testHomePageClientOnboardingForSwissNeobankLink" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
