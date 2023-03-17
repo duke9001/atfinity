@@ -85,7 +85,7 @@ public class HomePageTest extends Base{
 	}
 	
 	/**
-	 * Test video  
+	 * Test cover video  
 	 * 
 	 */
 	@Test(testName="Test home page video playing", groups={"Smoke", "Sanity", "Regression"})
@@ -105,7 +105,7 @@ public class HomePageTest extends Base{
 	}
 	
 	/**
-	 * Test video  
+	 * Test Swissneo Bank Link   
 	 * 
 	 */
 	@Test(testName="Test home page client on boarding for SwissNeobank link", groups={"Smoke", "Sanity", "Regression"})
